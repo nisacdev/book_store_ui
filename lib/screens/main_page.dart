@@ -73,7 +73,7 @@ class _MainPageState extends State<MainPage> {
           GestureDetector(
             onTap: () {
               setState(() {
-                activeTab = 0;
+                activeTab = 1;
               });
             },
             child: BottomBar(Icons.library_books, "",
@@ -82,7 +82,7 @@ class _MainPageState extends State<MainPage> {
           GestureDetector(
             onTap: () {
               setState(() {
-                activeTab = 0;
+                activeTab = 2;
               });
             },
             child: BottomBar(Icons.settings, "",
